@@ -11,6 +11,10 @@
         ```
         `http://192.168.1.1:8080/usbbackup.cmd?action=backupeble&sessionKey=${sessionKey}`
         ```
+        另外一种路由器需要执行（把xxx换成你查询到的关键字sessionKey）：
+        ```
+        `http://192.168.1.1:8080/usbbackup.cmd?action=backupeble&set2_sessionKey=set2_sessionKey_XXX`
+        ```
     1. 注意反引号属于代码的一部分，得到一个url，打开之后点击备份(如果不可点击，审查元素然后删除disabled)
     1. **如果上述方式执行失败**，根据[KoolShare](https://koolshare.cn/forum.php?mod=redirect&goto=findpost&ptid=166510&pid=2227183)坛友的做法也可以尝试执行下列代码
         ```js
